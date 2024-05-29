@@ -1,11 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> <%= htmlWebpackPlugin.options.title %> </title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <!-- drop down icon -->
+    <div class="container">
+      <button id="dropdown">&#9662;</button>
+      <nav>
+        <ul id="menulist" style="display: none">
+          <li>Menu</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
+    </div>
+  </body>
 </html>
